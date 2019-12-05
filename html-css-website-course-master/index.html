@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Awesome Website</title>
+
+    <!-- attach our stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- the header -->
+    <header>
+      <!-- our main logo -->
+      <a id="logo" href="index.html">
+        <img src="img/avatar.png" alt="Logo" />
+        <span>Frisk & Rask</span>
+      </a>
+
+      <!-- main navigation links -->
+      <nav>
+        <ul>
+          <li><a href="#bazinga">Home</a></li>
+          <li><a href="#bazinga2">Bilder</a></li>
+          <li><a href="#bazinga3">Video</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- the content -->
+    <main>
+      <!-- hero content -->
+      <div class="hero">
+        <!-- content for the hero -->
+        <div class="hero-content">
+          <h1 class="hero-title">HEI VI ER FRISK & RASK :)</h1>
+          <p>
+            Vi er et IKT firma som leverer et bredt tilbud av IKT-tjenester til
+            kunder i hele Norge
+          </p>
+          <a href="#bazinga5">Click here</a>
+        </div>
+      </div>
+
+      <!-- features section -->
+      <div class="site-section">
+        <div class="site-section-inside" id="bazinga5">
+          <div class="section-header" id="bazinga">
+            <h2>Tekster til FRISK & RASK</h2>
+          </div>
+          <div class="feature-box" id="bazinga2">
+            <img src="img/like.png" alt="Easy to Use" />
+            <h5>IKT-tjenester</h5>
+            <p>
+              Just think of how easy this is to use. Toddlers can do it. So can
+              you!
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <img src="img/faces.png" alt="Fun to Use" />
+            <h5>sikkerhet 24/7</h5>
+            <p>
+              Vi har support 24/7 og vil hjelpe deg så best som mulig.
+            </p>
+          </div>
+
+          <div class="feature-box">
+            <img src="img/heart.png" alt="Fun to Use" />
+            <h5>Gode resultater</h5>
+            <p>
+              Vi er her for å hjelpe deg og gi gode resultater til kundene våre.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- testimonials section -->
+      <div class="site-section site-section-secondary">
+        <div class="site-section-inside">
+          <div class="section-header" id="bazinga3">
+            <h2>Video til FRISK & RASK</h2>
+            <video width="800" controls>
+              <source src="Risk.mp4" type="video/mp4" />
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- the footer -->
+    <footer>
+      <img src="img/avatar.png" alt="Footer Logo" />
+      <span>FRISK & RASK<br />Copyright &copy; Magomed K </span>
+    </footer>
+    <script src="smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+  </body>
+</html>
